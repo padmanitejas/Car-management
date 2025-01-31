@@ -16,5 +16,12 @@ namespace Car_management
         {
             InitializeComponent();
         }
+
+        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.URL = @"C:\\Users\\User\\Downloads\\5309381-hd_1920_1080_25fps.mp4" ;
+            axWindowsMediaPlayer1.Ctlcontrols.play();
+
+        }
     }
 }
